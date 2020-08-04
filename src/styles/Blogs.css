@@ -1,0 +1,44 @@
+.blogs-cont {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.blogs-box{
+    margin: 10px;
+    padding: 30px;
+    width: 100%;
+    align-items: center;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #1d6ae7, #017aec, #0288ee, #2196ef, #3ca3ef);
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.7),
+                15px 15px 15px rgba(0.3, 0, 0, 0.3);
+    font-family: sans-serif;
+    color: white;
+}
+
+.h-cont h2{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    line-height: 1px;
+    display: flex;
+}
+
+@media screen and (max-width: 375px){
+    .blogs-box{
+        margin: 1px;
+    }  
+}
+
+@media screen and (max-width: 450px){
+    .blogs-box{
+        margin: 2px;
+    }   
+}
+
+@media screen and (max-width: 280px){
+    .blogs-box{
+        margin: 0.5px;
+    }   
+}
