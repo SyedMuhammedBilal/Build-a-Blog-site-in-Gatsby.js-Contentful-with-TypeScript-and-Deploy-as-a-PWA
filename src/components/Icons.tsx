@@ -13,6 +13,7 @@ export default class Icon extends React.Component {
       alert(this.nameRef.current.value)
     }
   }
+  
   render() {
     return (
       <form onSubmit={this.handleSubmit}>

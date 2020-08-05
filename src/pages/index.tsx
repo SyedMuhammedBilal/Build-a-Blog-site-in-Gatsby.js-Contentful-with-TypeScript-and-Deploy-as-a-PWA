@@ -8,14 +8,16 @@ import BlogTopics from "../components/BlogTopics";
 import Blogs from "../components/Blogs";
 import Icons from "../components/Icons";
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <HeaderBox />
-    <BlogTopics />
-    <Blogs />
-    <Icons />
-  </Layout>
-)
+function IndexPage() {
+  return(
+    <Layout>
+      <SEO title="Home" />
+      <HeaderBox />
+      <BlogTopics />
+      <Blogs />
+      <Icons />
+    </Layout>
+  )
+}
 
 export default IndexPage
