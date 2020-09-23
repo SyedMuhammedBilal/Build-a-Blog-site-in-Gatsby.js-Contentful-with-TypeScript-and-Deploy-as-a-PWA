@@ -34,7 +34,7 @@ const BlogTopics = () => {
             <div className="blog-box">
               <div className="blog-content">
                 <img src={edge.node.image.file.url} />
-                <h4>{edge.node.title}</h4>
+                <h4>{edge.node.title} </h4>
               </div>
             </div>
           )

@@ -34,12 +34,12 @@ const Blogs = () => {
       </div>
       {data.allContentfulBlog.edges.map((edge: any) => {
         return (
-          <div className="blogs-cont">
-            <div className="blogs-box">
-                <h2>{edge.node.subName}</h2>
-                <p>{edge.node.paragraph.paragraph}</p>
-                <h5>{edge.node.date} 2020</h5>
-            </div>
+            <div className="blogs-cont">
+              <div className="blogs-box">
+              <h2>{edge.node.subName}</h2>
+              <p>{edge.node.paragraph.paragraph}</p>
+              <h5>{edge.node.date} 2020 </h5>
+              </div>
             </div>
           )
       })}
@@ -51,4 +51,4 @@ const Blogs = () => {
   )
 }
 
-export default Blogs
+export default Blogs;
