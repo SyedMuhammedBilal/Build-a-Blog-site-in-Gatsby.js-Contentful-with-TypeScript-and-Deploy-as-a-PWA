@@ -2,7 +2,12 @@
   width: 100%}
 
 .slider1{
-  overflow-x: auto}
+  overflow-x: auto;
+}
+
+.slider1::-webkit-scrollbar {
+    display: none;
+}
 
 .card-container2{
   display: inline-flex}
