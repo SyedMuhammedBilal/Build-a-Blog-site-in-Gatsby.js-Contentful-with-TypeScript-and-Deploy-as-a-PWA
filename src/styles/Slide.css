@@ -1,0 +1,32 @@
+.container1{
+  width: 100%}
+
+.slider1{
+  overflow-x: auto}
+
+.card-container2{
+  display: inline-flex}
+
+
+.container
+  {
+  margin: 0 auto;}
+
+.card-container2{
+  padding: 2rem 1rem}
+  
+.card4
+  {background: linear-gradient(312deg, rgba(46,167,237,1) 1%, rgba(65,116,238,1) 89%);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0 1rem;
+  width: 200px}
+
+.card4 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

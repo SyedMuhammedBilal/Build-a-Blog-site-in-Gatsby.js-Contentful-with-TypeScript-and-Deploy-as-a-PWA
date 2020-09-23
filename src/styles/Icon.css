@@ -30,6 +30,10 @@
     cursor: pointer;
 }
 
+.buy-box:hover {
+    background-image: linear-gradient(to right,#2196ef, #3ca3ef,  #0288ee,#1d6ae7, #017aec);
+}
+
 
 @media screen and (max-width: 375px){
     .buy-box{

@@ -1,0 +1,16 @@
+.head-main {
+    padding: 50px;
+}
+
+.head-01 {
+    font-size: 10vh;
+}
+
+@media (max-width: 375px) {
+    .head-01 {
+        font-size: 6vh;
+    }
+    .head-main {
+        padding: 40px;
+    }
+}

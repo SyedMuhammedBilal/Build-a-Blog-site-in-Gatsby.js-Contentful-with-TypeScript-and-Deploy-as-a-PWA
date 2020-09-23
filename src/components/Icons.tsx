@@ -1,3 +1,4 @@
+import { navigate } from 'gatsby';
 import React, {RefObject} from 'react'
 
 import "../styles/Icon.css"
@@ -19,7 +20,9 @@ export default class Icon extends React.Component {
       <form onSubmit={this.handleSubmit}>
         <div className="buy-cont">
           <div className="buy-box">
-            <h3 ref={this.nameRef}>Buy Now</h3>
+            <h3 ref={this.nameRef} onClick={() => {
+              navigate('/categories/')
+            }}>Explore</h3>
           </div>
         </div>
       </form>

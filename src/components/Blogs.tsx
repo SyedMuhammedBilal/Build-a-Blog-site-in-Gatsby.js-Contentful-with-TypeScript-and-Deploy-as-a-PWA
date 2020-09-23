@@ -45,7 +45,7 @@ const Blogs = () => {
       })}
       <div className="h-cont">
         <h2>Explore best selling Blogs</h2>
-        <h2>But it Now!</h2>
+        <h2>Explore Now!</h2>
       </div>
     </>
   )
